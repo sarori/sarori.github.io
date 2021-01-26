@@ -11,7 +11,7 @@ function saveName(text) {
 
 function handleSubmit(event) {
 	event.preventDefault()
-	const currentValue = input.value
+	const currentValue = input.valu
 	paintGreeting(currentValue)
 	saveName(currentValue)
 }
